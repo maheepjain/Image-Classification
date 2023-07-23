@@ -1,5 +1,5 @@
 from keras.utils import to_categorical
-from data.pre_processing import load_cifar_testdata
+from pre_processing import load_cifar_testdata
 
 
 def one_hot_encoding():
