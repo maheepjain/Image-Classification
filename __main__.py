@@ -1,8 +1,8 @@
-from data.pre_processing import load_cifar_testdata
-from features.build_features import one_hot_encoding, flatten_dataset
-from models.predict_model import cnn_predict, logistic_regression_predict, random_forest_predict
-from models.train_model import cnn_model, logistic_regression_model, random_forest_model
-from visualization.visualize import accuracy_cnn, accuracy_logistic, heatmap_confusion_matrix, roc_curve_plot
+from pre_processing import *
+from build_features import *
+from predict_model import *
+from train_model import *
+from visualize import *
 
 
 # Logistic Regression
